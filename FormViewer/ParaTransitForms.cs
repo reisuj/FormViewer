@@ -53,5 +53,14 @@ namespace FormViewer
             if (ExactFilename != string.Empty)
                 System.Diagnostics.Process.Start(ExactFilename);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {            
+            //Create new instance of ParaTransitFleet Form
+            ParaTransitFleet paraTransitFleert = new ParaTransitFleet();
+
+            //Show the form
+            paraTransitFleert.Show();
+        }
     }
 }
